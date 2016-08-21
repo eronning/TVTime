@@ -1,0 +1,23 @@
+.topGroup {
+	display: inline
+}
+
+div.epText {
+    float: left;
+    width: 70%;
+}
+
+div.radioBtns {
+    float: right;
+    width: 30%;
+}
+
+.showAndEp {
+	font-family: Raleway, sans-serif;
+    font-size: 18px;
+    color: DeepSkyBlue;
+    opacity:.95;
+    text-shadow:#000 0px 1px 5px;
+    border-radius: 3px 3px 0 0;
+    text-transform:none;
+}

@@ -1,0 +1,113 @@
+.wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+#directions {
+	margin-left:30%; 
+	margin-top:10%;
+}
+
+p{
+  font-family: Raleway, sans-serif;
+  font-size:20px;
+  color:black;
+  margin-bottom:20px;
+  margin-top:10px;
+  margin-left:35px;
+  margin-right:35px;
+  text-transform:none;
+}
+
+.styledButton{
+  border: none;
+  background: DeepSkyBlue;
+  cursor: pointer;
+  border-radius: 5px;
+  padding:10px;
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-size:12px;
+  color:#FFF;
+  text-transform:uppercase;
+  text-shadow:#000 0px 1px 5px;
+  border:1px solid #000;
+  opacity:0.9;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  border-top:1px solid rgba(255,255,255,0.8)!important;
+  margin-bottom:30px;
+ }
+ 
+.medButton {
+	width:120px;
+}
+
+h1{
+	font-family: Raleway, sans-serif;
+    font-size: 36px;
+    color: DeepSkyBlue;
+    opacity:.95;
+    text-shadow:#000 0px 1px 5px;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+}
+
+h2{
+	font-family: Raleway, sans-serif;
+    font-size: 24px;
+    color: DeepSkyBlue;
+    opacity:.95;
+    text-shadow:#000 0px 1px 5px;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+}
+
+h3{
+	font-family: Raleway, sans-serif;
+    font-size: 18px;
+    color: DeepSkyBlue;
+    opacity:.95;
+    text-shadow:#000 0px 1px 5px;
+    border-radius: 3px 3px 0 0;
+}
+
+.episode-image {
+	margin-left: 40%;
+}
+.episode-title {
+	text-align:center;
+	font-family: Raleway, sans-serif;
+    font-size: 18px;
+    color: DeepSkyBlue;
+    opacity:.95;
+    text-shadow:#000 0px 1px 5px;
+    border-radius: 3px 3px 0 0;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.episode-description {
+	margin-left: 20%;
+	margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Raleway, sans-serif;
+  font-size:16px;
+  color:white;
+  text-shadow:#000 0px 1px 5px;
+}
+
+.episodeDiv {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+  border-radius: 1px;
+  background: transparent;
+   margin-bottom: 2px; 
+}

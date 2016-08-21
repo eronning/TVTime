@@ -1,0 +1,319 @@
+/*site container*/
+.wrapper {
+  display: inline-block;
+  margin-top: -15px;
+  width: 100%;
+  height: 700px;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  background:url("http://marshall-design.com/codepen/abs6.jpg");
+}
+
+.wrapping {
+  display: inline-block;
+  margin-top: 15px; 
+  margin-left: 1%;
+  width: 39%;
+  background:transparent;
+  height: 325px;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+
+#myGroup {
+	height: 250px;
+	overflow:auto;
+}
+
+.fc-widget-header{
+	background-color: DeepSkyBlue;
+}
+
+.fc-center h2{
+	color: #CCCCCC;
+}
+
+.fc-axis.fc-widget-content{
+	background-color: DeepSkyBlue;
+	font-weight: bold;
+}
+
+.fc-unthemed .fc-today
+{
+	background: black;
+	opacity: 0.25;
+
+}
+
+#togetherCal {
+	width: 58%;
+	margin-top: -20px;
+	margin-left: 10px;
+}
+
+h1{
+	color: #CCCCCC;
+	font-size: 3em;
+	text-align: center;
+}
+
+.togetherCol {
+	width: 60%;
+	float: left;	
+}
+
+.sidebarCol{
+	width: 40%;
+	float: left;
+}
+
+
+input {
+  padding:15px 0px 15px 8px;
+  width: 200px;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px DeepSkyBlue;
+  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, DeepSkyBlue 4%);
+  background-position: -1100px 0;
+  background-size: 1100px 100%;
+  background-repeat: no-repeat;
+  color: DeepSkyBlue;
+  margin-bottom:5%;
+}
+
+input:focus {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;   
+}
+
+fieldset {
+    margin-top: 0px;
+    border:none;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  color: DeepSkyBlue;
+  font-size: 11px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+}
+
+button{
+  border: none;
+  background: DeepSkyBlue;
+  cursor: pointer;
+  border-radius: 5px;
+  padding:10px;
+  width: 100px;
+  color: black;
+  font-family: Raleway, sans-serif;
+  font-size:12px;
+  text-transform:uppercase;
+  border:1px solid #000;
+  opacity:0.9;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  border-top:1px solid rgba(255,255,255,0.8)!important;
+  margin-bottom:30px;
+ }
+ 
+ #myGroupTitle {
+   margin-left: 2.5%;
+ }
+
+button:hover {
+  color:DeepSkyBlue;
+  background:black;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+}
+
+#request-button {
+    width: 31%;
+    margin-left: 2.5%;
+    margin-bottom: 7px;
+}
+
+#schedule-button {
+	width: 31%;
+	margin-bottom: 7px;
+}
+
+#clear-button {
+	width: 31%;
+	margin-bottom: 7px;
+}
+#search-button {
+	margin-right: 30px;
+}
+
+#no-friends {
+	margin-top: -75px;
+}
+
+.no-matches {
+    font-family: Raleway, sans-serif;
+    font-size:20px;
+    color:#6E6E6E;
+    text-shadow:#000 0px 1px 5px;
+    opacity:.95;
+    text-shadow:#000 0px 1px 5px;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+}
+
+label{
+
+  margin-right: 10px;
+  font-family: Raleway, sans-serif;
+  font-size:16px;
+  color:#6E6E6E;
+  text-shadow:#000 0px 1px 5px;
+  text-align:right;
+}
+
+.show-name{
+    text-align:center;
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    color: DeepSkyBlue;
+    opacity:.95;
+    text-shadow:#000 0px 1px 5px;
+    border-radius: 3px 3px 0 0;
+    margin-top: -25px;
+    margin-bottom: 5px;
+}
+
+.show-image{
+    height:150px; 
+    width:auto; 
+    max-width:200px;  
+    margin-left: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.show-genres{
+    text-align:center;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    color: DeepSkyBlue;
+    opacity:.95;
+    text-shadow:#000 0px 1px 5px;
+    border-radius: 3px 3px 0 0; 
+}
+
+#friends-show-content {
+    margin-top: 0px;
+    height: 152px;
+    width: 100%;
+    overflow: auto;
+}
+
+.scrollContent img {
+  width: auto; height: 100%; 
+  float: right;
+}
+
+.scrollContent {
+  float: left;
+  overflow: hidden;
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  background: DeepSkyBlue; 
+  position: relative; 
+  font-size: 0; margin: 0; 
+  margin-top: 17px;
+  margin-left: 20px; 
+  width: 23%;
+  height: 130px;
+/*   flex: 0 0 5%;  */
+  opacity:.85;
+  z-index: 100;
+ }
+ 
+ .scrollContent:hover {  
+  opacity:.75;
+}
+
+.content {
+	float: left;
+  overflow: hidden;
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  background: DeepSkyBlue; 
+  position: relative; 
+  font-size: 0; margin: 0; 
+  width: 45%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  height: 130px; 
+  opacity:.85;
+  z-index: 100;
+ }
+
+.content:hover {  
+  opacity:.75;
+}
+
+.content img { 
+   width: auto; height: 100%; 
+  float: right;
+}
+
+.content-name {
+  position: absolute; left:3%; 
+  top: -5%;  
+  font-family: Raleway, sans-serif;
+  font-size:25px;
+  font-weight: bold;
+  color:black;
+  opacity:.95;
+  border-radius: 3px 3px 0 0; 
+}
+.content-email { 
+  position: absolute; left: 1%; 
+  top: 20%;  
+  font: 15px Oswald;
+  color:black;
+  opacity:.95;
+  text-shadow:#000 0px 1px 3px;
+  border-radius: 3px 3px 0 0; 
+}
+
+.content-num { 
+  position: absolute; left: 8%; 
+  top: 50%;  
+  font: 15px Oswald;
+  font-weight: bold;
+  color:black;
+  opacity:.95;
+  border-radius: 3px 3px 0 0; 
+}
+
+body .ui-autocomplete {
+    max-height: 130px !important;
+    overflow:hidden;
+  font-family: Raleway, sans-serif;
+  border: none;
+  background:url("http://marshall-design.com/codepen/abs6.jpg");
+}
+
+body .ui-autocomplete .ui-menu-item .ui-corner-all {
+   color: DeepSkyBlue;
+   opacity: 0.95;
+}
+
+body .ui-autocomplete .ui-menu-item .ui-state-focus {
+   /* selected <a> */
+  background:DeepSkyBlue;
+  color: black;
+  opacity: 0.95;
+}

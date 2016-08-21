@@ -1,0 +1,129 @@
+body{
+  background:url("http://marshall-design.com/codepen/abs6.jpg");
+}
+
+.text-area-start{
+  width:10%;
+  padding:20px 0px 15px 8px;
+  display: block;
+  border: none;
+  border-bottom: solid 1px DeepSkyBlue;
+  transition: none;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, DeepSkyBlue 4%);
+  background-position: -1000px 0;
+  background-size: 1000px 100%;
+  background-repeat: no-repeat;
+  color: DeepSkyBlue;
+}
+
+.text-area-start:focus {
+  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0; 
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  color: DeepSkyBlue;
+  font-size: 11px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+}
+
+#logo {
+  margin-left:50px;
+  margin-top:-50px;
+  margin-bottom:-100px;
+}
+
+
+
+.styled-button-start{
+  width:10%;
+  padding:15px;
+  border-radius:5px;
+  @include disable;
+  background: DeepSkyBlue;
+  font-family: Raleway, sans-serif;
+  font-size:14px;
+  color:#FFF;
+  text-transform:uppercase;
+  text-shadow:#000 0px 1px 5px;
+  border:1px solid #000;
+  opacity:0.9;
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+	box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  border-top:1px solid rgba(255,255,255,0.8)!important;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.2)));
+  outline: 0;
+  margin-bottom:40px;
+}
+
+.styled-button-start:hover {
+  color:DeepSkyBlue;
+  background:black;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+}
+
+#incorrect-login {
+ float:right;
+ margin-right:20px;
+ margin-top:25px;
+ color:red;
+}
+
+#email-text {
+ float:right;
+ margin-right:10px;
+ margin-top:5px;
+}
+#password-text{
+  float:right;
+  margin-right:10px;
+  margin-top:5px;
+}
+
+
+#login-button {
+  float:right;
+  margin-right:10px;
+  margin-top:5px;
+}
+
+#signup-button {
+  float:right;
+  margin-right:50px;
+  margin-top:5px;
+}
+
+#title {
+  position:fixed;
+  color:white;
+  text-shadow:
+	1px 1px 0 #CCC,
+	2px 2px 0 #CCC, /* end of 2 level deep grey shadow */
+	3px 3px 0 #444,
+	4px 4px 0 #444,
+	5px 5px 0 #444,
+	6px 6px 0 #444; /* end of 4 level deep dark shadow */
+  font-family: Raleway, sans-serif;
+  font-size:50px;
+  margin-top:-75px;
+  margin-bottom:-25px;
+  margin-left:250px;
+}
+
+
+
+
+hr {
+  border: 0;
+  height: 5px;
+  background: -moz-linear-gradient(left center, transparent, white, transparent);
+  background: -webkit-gradient(linear, left center, right center,
+                                 color-stop(0, transparent),
+                                 color-stop(0.5, white),
+                                 color-stop(1, transparent));
+}

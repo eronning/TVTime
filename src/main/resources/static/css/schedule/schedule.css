@@ -1,0 +1,64 @@
+#scheduleCal {
+	margin-top: 50px;
+}
+
+.fc-widget-header{
+	background-color: DeepSkyBlue;
+}
+
+.fc-center h2{
+	font-family: Raleway, sans-serif;
+    color: DeepSkyBlue;
+    opacity:.95;
+    text-shadow:#000 0px 1px 5px;
+    border-radius: 3px 3px 0 0;
+}
+
+.fc-axis.fc-widget-content{
+	background-color: DeepSkyBlue;
+	font-weight: bold;
+}
+
+.fc-unthemed .fc-today
+{
+	background: black;
+	opacity: 0.25;
+
+}
+
+#scheduleButtons button{
+  border: none;
+  background: DeepSkyBlue;
+  cursor: pointer;
+  border-radius: 5px;
+  float: left;
+  padding:10px;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom:20px;
+  font:14px Oswald;
+  font-weight:bold;
+  color:black;
+  text-transform:uppercase;
+  border:1px solid #000;
+  opacity:0.9;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  border-top:1px solid rgba(255,255,255,0.8)!important;
+ }
+
+#scheduleButtons button:hover {
+  color:DeepSkyBlue;
+  background:black;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+}
+
+h1{
+	color: #6E6E6E;
+	font-size: 30px;
+	margin-left: 15px;
+}

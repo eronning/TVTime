@@ -1,0 +1,260 @@
+
+body {
+    background:url("http://marshall-design.com/codepen/abs6.jpg");
+}
+
+
+.showsBreakup{
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+    color: DeepSkyBlue;
+    opacity:.95;
+    text-shadow:#000 0px 1px 5px;
+    border-radius: 3px 3px 0 0;
+    
+}
+
+
+hr {
+  width:90%;
+  border: 0;
+  height: 3px;
+  background: -moz-linear-gradient(left center, transparent, black, transparent);
+  background: -webkit-gradient(linear, left center, right center,
+                                 color-stop(0, transparent),
+                                 color-stop(0.5, black),
+                                 color-stop(1, transparent));
+}
+
+
+#addButton{
+  position: absolute;
+  width:10%;
+  padding:15px;
+  border-radius:5px;
+  @include disable;
+  background: DeepSkyBlue;
+  font:14px Oswald;
+  color:#FFF;
+  text-transform:uppercase;
+  text-shadow:#000 0px 1px 5px;
+  border:1px solid #000;
+  opacity:0.9;
+    -webkit-box-shadow: 0 16px 6px -6px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  border-top:1px solid rgba(255,255,255,0.8)!important;
+  outline: 0;
+  top: 80px;
+  right: 20px;
+}
+
+#addButton:hover {
+  color:DeepSkyBlue;
+  background:black;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+}
+
+.content {
+  border: 5px solid black;
+}
+
+.makeMeScrollable {
+  width:100%;
+  height: 160px;
+  position: relative;
+  height:170px;
+    white-space: nowrap;
+    overflow:hidden;
+    background: repeat;
+}
+        
+/* Replace the last selector for the type of element you have in
+   your scroller. If you have div's use #makeMeScrollable div.scrollableArea div,
+   if you have links use #makeMeScrollable div.scrollableArea a and so on. */
+.makeMeScrollable div.scrollableArea img {
+  position: relative;
+  float: left;
+  margin: 5px;           
+  height:150px; 
+  width:auto; 
+  max-width:200px; 
+  /* If you don't want the images in the scroller to be selectable, try the following
+  block of code. It's just a nice feature that prevent the images from
+  accidentally becoming selected/inverted when the user interacts with the scroller. */
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.makeMeScrollable div.scrollableArea img:hover {
+  position: relative;
+  float: left;
+  margin: 5px;           
+  height:150px; 
+  width:auto; 
+  max-width:200px; 
+  /* If you don't want the images in the scroller to be selectable, try the following
+  block of code. It's just a nice feature that prevent the images from
+  accidentally becoming selected/inverted when the user interacts with the scroller. */
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.makeMeScrollable div.scrollableArea img:hover {
+    opacity: 0.65;
+}
+
+/*site container*/
+.wrapper {
+  top: 50%;
+  left: 25%;
+  position:absolute;
+  z-index: 999;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  background:url("http://marshall-design.com/codepen/abs6.jpg");
+}
+
+h1 {
+  margin-top: -10px;
+  height: 80px;
+  width: 100%;
+  font-family: Raleway, sans-serif;
+  font-size:20px;
+  background: DeepSkyBlue; 
+  color:black;
+  opacity:.95;
+ 
+  line-height: 150%;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 5px 5px rgba(0,0,0,0.2);
+  text-align:center;
+  box-sizing: border-box;
+  padding:15px 0px 10px 0px;
+}
+
+p {
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    color: DeepSkyBlue;
+    text-shadow:#000 0px 1px 5px;
+    border-radius: 3px 3px 0 0;
+    
+}
+
+
+input {
+  position:absolute;
+  right: 19%;
+  padding:15px 0px 15px 8px;
+  width: 300px;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px DeepSkyBlue;
+  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, DeepSkyBlue 4%);
+  background-position: -1100px 0;
+  background-size: 1100px 100%;
+  background-repeat: no-repeat;
+  color: DeepSkyBlue;
+  margin-bottom:5%;
+}
+
+input:focus {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;   
+}
+
+fieldset {
+    margin-top: 10px;
+    border:none;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  color: DeepSkyBlue;
+  font-size: 11px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+}
+
+button{
+  border: none;
+  background: DeepSkyBlue;
+  cursor: pointer;
+  border-radius: 5px;
+  padding:10px;
+  width: 100px;
+  color: black;
+  font-family: Raleway, sans-serif;
+  font-size:12px;
+  text-transform:uppercase;
+  border:1px solid #000;
+  opacity:0.9;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+  border-top:1px solid rgba(255,255,255,0.8)!important;
+  margin-bottom:30px;
+ }
+
+button:hover {
+  color:DeepSkyBlue;
+  background:black;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+}
+
+#search-button {
+    position: absolute;
+    right: 10%;
+}
+
+label{
+    position:absolute;
+  font-family: Raleway, sans-serif;
+  font-size:20px;
+  color:#6E6E6E;
+  text-shadow:#000 0px 1px 5px;
+  margin-top: 10px;
+  text-align:right;
+  right: 45%;
+}
+
+#no-matches {
+	color: DeepSkyBlue;
+	font-size: 12px;
+	right : 15%;
+	margin-top: 65px;
+}
+
+body .ui-autocomplete {
+	max-height: 130px !important;
+    overflow:hidden;
+  font-family: Raleway, sans-serif;
+  border: none;
+  background:url("http://marshall-design.com/codepen/abs6.jpg");
+}
+
+body .ui-autocomplete .ui-menu-item .ui-corner-all {
+   color: DeepSkyBlue;
+   opacity: 0.95;
+}
+
+body .ui-autocomplete .ui-menu-item .ui-state-focus {
+   /* selected <a> */
+  background:DeepSkyBlue;
+  color: black;
+  opacity: 0.95;
+}
+
